@@ -56,7 +56,7 @@ You can use [Docker Compose](https://docs.docker.com/compose/) in order to set e
 
 `docker-compose up`
 
-and if [this PR](https://github.com/tim-field/graphql-wp/pull/9) is not be merged add
+and if [this PR](https://github.com/tim-field/graphql-wp/pull/9) is not merged, add:
  ```php
  require_once __DIR__.'/../../../vendor/autoload.php';
  ```
@@ -72,10 +72,12 @@ Caveat: You might need a superuser access, in order to perform: `bash -x load_db
 
  - `cd wordpress && composer install`
  - change data in `wp-config.php` according to your MySQL Server
- - and if [this PR](https://github.com/tim-field/graphql-wp/pull/9) is not be merged add
+ - and if [this PR](https://github.com/tim-field/graphql-wp/pull/9) is not merged, add:
+ 
     ```php
     require_once __DIR__.'/../../../vendor/autoload.php';
     ```
+    
    after `namespace Mohiohio\GraphQLWP;` in `wordpress/wp-content/plugins/graphql-wp/index.php`.
  - copy/paste `wordpress` folder to your PHP Server
 
