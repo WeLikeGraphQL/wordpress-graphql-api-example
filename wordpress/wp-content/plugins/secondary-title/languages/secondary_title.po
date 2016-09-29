@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Secondary Title\n"
+"POT-Creation-Date: 2015-12-28 00:55+0100\n"
+"PO-Revision-Date: 2015-12-28 00:55+0100\n"
+"Last-Translator: Kolja Nolte <kolja.nolte@gmail.com>\n"
+"Language-Team: Kolja Nolte <kolja.nolte@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:35
+msgid "Enter secondary title here"
+msgstr ""
+
+#: includes/hooks.php:107
+msgid "Secondary title"
+msgstr ""
+
+#: includes/hooks.php:174
+msgid "Sec. title"
+msgstr ""
+
+#: includes/hooks.php:268
+msgid "Settings"
+msgstr ""
+
+#: includes/settings.php:38
+msgid "Are you sure you want to reset all settings?"
+msgstr ""
+
+#: includes/settings.php:48
+msgid "The settings have been successfully updated."
+msgstr ""
+
+#: includes/settings.php:55
+msgid "The settings have been successfully reset."
+msgstr ""
+
+#: includes/settings.php:63 includes/settings.php:298
+msgid "Collapse/expand section"
+msgstr ""
+
+#: includes/settings.php:65
+msgid "General Settings"
+msgstr ""
+
+#: includes/settings.php:69
+msgid ""
+"This section lets you change the most basic settings about how Secondary "
+"Title is supposed to behave."
+msgstr ""
+
+#: includes/settings.php:76
+msgid "Auto show"
+msgstr ""
+
+#: includes/settings.php:82 includes/settings.php:171 includes/settings.php:316
+msgid "On"
+msgstr ""
+
+#: includes/settings.php:85 includes/settings.php:174 includes/settings.php:321
+msgid "Off"
+msgstr ""
+
+#: includes/settings.php:89
+msgid "Automatically merges the secondary title with the standard title."
+msgstr ""
+
+#: includes/settings.php:94
+#, php-format
+msgid ""
+"To manually insert the secondary title in your theme, use %s or %s. See the "
+"<a href=\"%s\" title=\"See official documentation\" target=\"_blank\" "
+">official documentation</a> for additional parameters."
+msgstr ""
+
+#: includes/settings.php:103
+msgid "Title format"
+msgstr ""
+
+#: includes/settings.php:108
+msgid "E.g.: %secondary_title%: %title%"
+msgstr ""
+
+#: includes/settings.php:111
+msgid "Reset"
+msgstr ""
+
+#: includes/settings.php:115
+#, php-format
+msgid ""
+"Replaces the default title with the given format. Use %s for the main title "
+"and %s for the secondary title."
+msgstr ""
+
+#: includes/settings.php:115
+msgid "Add title to title format input"
+msgstr ""
+
+#: includes/settings.php:115
+msgid "Add secondary title to title format input"
+msgstr ""
+
+#: includes/settings.php:143
+#, php-format
+msgid ""
+"<b>Note:</b> To style the output, use the <a href=\"%s\" title=\"See an "
+"explanation on w3schools.com\" target=\"_blank\">style HTML attribute</a>, e."
+"g.:<br />%s"
+msgstr ""
+
+#: includes/settings.php:143
+msgid "Add code to title format input"
+msgstr ""
+
+#: includes/settings.php:156
+msgid "Display Rules"
+msgstr ""
+
+#: includes/settings.php:160
+msgid ""
+"These options let you specify where the secondary title is allowed to be "
+"displayed and where not. Unselecting all fields deactivates the limit "
+"completely."
+msgstr ""
+
+#: includes/settings.php:166
+msgid "Only show in main post"
+msgstr ""
+
+#: includes/settings.php:177
+msgid ""
+"Only displays the secondary title if the post is a main post and "
+"<strong>not</strong> within a widget etc."
+msgstr ""
+
+#: includes/settings.php:184
+msgid "Post types"
+msgstr ""
+
+#: includes/settings.php:224
+msgid "Only display the secondary title if post among the selected post types."
+msgstr ""
+
+#: includes/settings.php:231
+msgid "Categories"
+msgstr ""
+
+#: includes/settings.php:250
+#, php-format
+msgid "There are %s posts in %s"
+msgstr ""
+
+#: includes/settings.php:265
+msgid "Select all"
+msgstr ""
+
+#: includes/settings.php:270
+msgid "Unselect all"
+msgstr ""
+
+#: includes/settings.php:275
+msgid "Display secondary title only if post is among the selected categories."
+msgstr ""
+
+#: includes/settings.php:284
+msgid "Post IDs"
+msgstr ""
+
+#: includes/settings.php:288
+msgid "E.g. 13, 71, 33"
+msgstr ""
+
+#: includes/settings.php:290
+msgid ""
+"Only uses the secondary title if post is among the entered post IDs. Use "
+"commas to separate multiple IDs."
+msgstr ""
+
+#: includes/settings.php:301
+msgid "Miscellaneous Settings "
+msgstr ""
+
+#: includes/settings.php:309
+msgid "Include in search"
+msgstr ""
+
+#: includes/settings.php:325
+msgid "Makes the secondary title searchable."
+msgstr ""
+
+#: includes/settings.php:333
+msgid "Input field position"
+msgstr ""
+
+#: includes/settings.php:339
+msgid "Above standard title"
+msgstr ""
+
+#: includes/settings.php:342
+msgid "Below standard title"
+msgstr ""
+
+#: includes/settings.php:344
+#, php-format
+msgid ""
+"Defines whether input field for the secondary title should be displayed "
+"above or below<br />the standard title <strong>within the add/edit post/page "
+"area</strong> on the admin Dashboard.<br />See the <a href=\"%s\" title="
+"\"See the FAQ\" target=\"_blank\">FAQ</a> if you want to apply the same "
+"effect on your front end."
+msgstr ""
+
+#: includes/settings.php:356
+msgid "Save Changes"
+msgstr ""
+
+#: includes/settings.php:361
+msgid "Reset Settings"
+msgstr ""
+
+#: includes/settings.php:369
+#, php-format
+msgid ""
+"Found an error? Help making Secondary Title better by <a href=\"%s\" title="
+"\"Click here to report a bug\" target=\"_blank\">quickly reporting the bug</"
+"a>."
+msgstr ""

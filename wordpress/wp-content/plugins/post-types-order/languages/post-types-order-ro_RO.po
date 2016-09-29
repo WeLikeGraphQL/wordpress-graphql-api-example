@@ -1,0 +1,200 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Types Order\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-28 17:25+0200\n"
+"PO-Revision-Date: 2015-02-28 17:25+0200\n"
+"Last-Translator: nsp-code <contact@nsp-code.com>\n"
+"Language-Team: http://nsp-code.com <electronice_delphi@yahoo.com>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: post-types-order.php:121
+msgid "Post Types Order must be configured. Please go to"
+msgstr "Post Types Order trebuie configurat. Mergeti la"
+
+#: post-types-order.php:121
+msgid "Settings Page"
+msgstr "Pagina Setari"
+
+#: post-types-order.php:121
+msgid "make the configuration and save"
+msgstr "efectuati configurarea si salvati"
+
+#: post-types-order.php:209 post-types-order.php:287
+#, php-format
+msgid "Use commas instead of %s to separate excluded terms."
+msgstr "Folositi virgula in loc the %s pentru a delimita termenii exclusi."
+
+#: include/cpto-class.php:107 include/cpto-class.php:111
+#: include/cpto-class.php:122
+msgid "Re-Order"
+msgstr "Re-Order"
+
+#: include/cpto-class.php:130
+msgid ""
+"This plugin can't work without javascript, because it's use drag and drop "
+"and AJAX."
+msgstr ""
+"Acest plugin nu poate functiona fara JavaScript pentru ca foloseste o "
+"functionalitate drag & drop si AJAX."
+
+#: include/cpto-class.php:143
+msgid "Update"
+msgstr "Actualizare"
+
+#: include/cpto-class.php:162
+msgid "Items Order Updated"
+msgstr "Sortare salvata"
+
+#: include/cpto-class.php:179
+msgid "Pages"
+msgstr "Pagini"
+
+#: include/functions.php:82
+msgid ""
+"Did you find this plugin useful? Please support our work with a donation or "
+"write an article about this plugin in your blog with a link to our site"
+msgstr ""
+"Acest plugin iti este folositor? The rog ajuta exhipa sa dezvolte softul in "
+"continuare printr-o donatie sau un articol despre acest plugin on blog-ul "
+"tau impreuna cu un link catre site-ul nostru"
+
+#: include/functions.php:83
+msgid "Did you know there is available an Advanced version of this plug-in?"
+msgstr "Stiati ca este disponibil o versiune mai avansata a acestui plug-in?"
+
+#: include/functions.php:83
+msgid "Read more"
+msgstr "Citeste mai multe"
+
+#: include/functions.php:84
+msgid "Check our"
+msgstr "Verificati"
+
+#: include/functions.php:84
+msgid ""
+"plugin which allow to custom sort categories and custom taxonomies terms"
+msgstr "plugin care ajuta la sortarea categoriilor si a termenilor"
+
+#: include/options.php:18
+msgid "Settings Saved"
+msgstr "Setari Salvate"
+
+#: include/options.php:30
+msgid "General Settings"
+msgstr "Setari Generale"
+
+#: include/options.php:36
+msgid "General"
+msgstr "Geral"
+
+#: include/options.php:41
+msgid "Minimum Level to use this plugin"
+msgstr "Niveulul minim pentru a utiliza Re-order"
+
+#: include/options.php:44
+msgid "Subscriber"
+msgstr "Subscriber"
+
+#: include/options.php:45
+msgid "Contributor"
+msgstr "Contributor"
+
+#: include/options.php:46
+msgid "Author"
+msgstr "Author"
+
+#: include/options.php:47
+msgid "Editor"
+msgstr "Editor"
+
+#: include/options.php:48
+msgid "Administrator"
+msgstr "Administrator"
+
+#: include/options.php:54
+msgid "Auto Sort"
+msgstr "Auto Sort"
+
+#: include/options.php:56
+msgid ""
+"If checked, the plug-in automatically update the WordPress queries to use "
+"the new order (<b>No code update is necessarily</b>)"
+msgstr ""
+"Daca este marcat, plugin-ul modifice automat wp-query-urile pentru a folosi "
+"noua ordine.  (<b>Nu este necesare editarea codului</b>)"
+
+#: include/options.php:57
+msgid ""
+"If only certain queries need to use the custom sort, keep this unchecked and "
+"include 'orderby' => 'menu_order' into query parameters"
+msgstr ""
+"Daca se doreste sortarea numai pentru anumite queri-uri, aceasta setare "
+"trebuie dezactivata si se va include 'menu_order' in parametrii query-uilui"
+
+#: include/options.php:59
+msgid "Additional Description and Examples"
+msgstr "Descriere si exemple aditionale"
+
+#: include/options.php:66
+msgid "Admin Sort"
+msgstr "Sorteaza nterfata admin"
+
+#: include/options.php:70
+msgid ""
+"To affect the admin interface, to see the post types per your new sort, this "
+"need to be checked"
+msgstr "Pentru a modifica ordinea in admin"
+
+#: include/options.php:75
+msgid "Next / Previous Apply"
+msgstr "Aplica la Next / Previous"
+
+#: include/options.php:79
+msgid "Apply the sort on Next / Previous site-wide navigation."
+msgstr "Aplica sortarea la navigatia Next / Previous."
+
+#: include/options.php:79
+msgid "This can also be controlled through"
+msgstr "Aceasta setare poate fi controlata prin"
+
+#: include/options.php:79
+msgid "code"
+msgstr "cod"
+
+#: include/options.php:88
+msgid "Save Settings"
+msgstr "Salveaza"
+
+#~ msgid "Show Examples"
+#~ msgstr "Arata exemple"
+
+#~ msgid ""
+#~ "The following PHP code will still return the post in the set-up Order"
+#~ msgstr "Urmatorul cod PHP to va returna post-urile in ordinea desemnata"
+
+#~ msgid "Or"
+#~ msgstr "Sau "
+
+#~ msgid ""
+#~ "If the Auto Sort is uncheck you will need to use the \"orderby\" and "
+#~ "\"order\" parameters"
+#~ msgstr ""
+#~ "Daca Auto Sort este de-marcat, va trebui sa folositi parametrii \"orderby"
+#~ "\" si \"order\" "
+
+#~ msgid "Post Types Order"
+#~ msgstr "Post Types Order"
+
+#~ msgid "Invalid post type"
+#~ msgstr "Post Type Invalid"
+
+#~ msgid "%s  -  Re-order "
+#~ msgstr "Reordenar %s"

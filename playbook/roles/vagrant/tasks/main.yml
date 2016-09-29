@@ -1,0 +1,16 @@
+- include: config.yml
+  tags:
+   - docker
+   - docker-config
+   - docker-logrotate
+
+- include: install.yml
+  tags:
+   - docker
+   - docker-install
+   - docker-compose-install
+
+- include: run.yml
+  tags:
+   - docker
+   - docker-run

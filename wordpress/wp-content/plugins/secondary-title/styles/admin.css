@@ -1,0 +1,118 @@
+.secondary-title-input,
+#secondary-title-input {
+   margin:  5px 0;
+   padding: 5px 10px;
+   width:   100%;
+}
+
+#secondary-title-settings {
+   width: 80%;
+}
+
+#secondary-title-settings .form-table th {
+   padding-top: 14px;
+}
+
+#secondary-title-settings .page-title {
+   margin-bottom: 20px;
+}
+
+#secondary-title-settings code.pointer {
+   cursor: pointer;
+}
+
+#secondary-title-settings .fa {
+   margin-right: 5px;
+}
+
+#secondary-title-settings .updated {
+   margin-top: 30px !important;
+}
+
+#secondary-title-settings .buttons button:first-of-type {
+   margin-right: 10px;
+}
+
+#secondary-title-settings .left {
+   float: left;
+}
+
+#secondary-title-settings .right {
+   float: right;
+}
+
+#secondary-title-settings #buttons-top {
+   position: relative;
+   top:      10px;
+}
+
+#secondary-title-settings .postboxes {
+   margin-top: 30px;
+}
+
+#secondary-title-settings .postboxes .postbox .intro {
+   margin-bottom: 20px;
+   text-align:    justify;
+}
+
+#secondary-title-settings .postboxes .postbox .postbox-title {
+   cursor:    default;
+   font-size: 16px;
+}
+
+#secondary-title-settings .postboxes .postbox .content-toggler:before {
+   content: "\f142";
+}
+
+#secondary-title-settings .postboxes .postbox .hndle {
+   cursor: pointer;
+}
+
+#secondary-title-settings .postboxes .postbox .content-toggler {
+   cursor:                 pointer;
+   display:                inline-block;
+   float:                  right;
+   font:                   normal 20px/1 'dashicons';
+   position:               relative;
+   right:                  12px;
+   text-decoration:        none !important;
+   top:                    8px;
+   transform:              rotate(0deg);
+   -webkit-font-smoothing: antialiased;
+}
+
+#secondary-title-settings .postboxes .postbox .inside table tr td .radios label:first-of-type {
+   margin-right: 20px;
+}
+
+#secondary-title-settings .postboxes .postbox .inside .list .list-item {
+   display:       inline-block !important;
+   margin-bottom: 7px;
+   overflow:      hidden;
+   width:         30%;
+}
+
+#secondary-title-settings .postboxes .postbox .inside .list .list-item.hidden {
+   display: none;
+}
+
+#secondary-title-settings .postboxes .postbox .inside .list .list-actions {
+   font-size: 12px;
+   margin:    20px 0 10px 0;
+}
+
+#secondary-title-settings #row-post-types th {
+   padding-top: 20px;
+}
+
+#secondary-title-settings #row-title-format #title-format-preview {
+   background: #f9f9f9;
+   margin:     10px 0;
+   padding:    10px;
+}
+
+#secondary-title-settings #report-bug {
+   font-size:  12px;
+   margin-top: 30px;
+   opacity:    0.6;
+}

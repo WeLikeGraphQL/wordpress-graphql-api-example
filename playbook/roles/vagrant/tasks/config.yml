@@ -1,0 +1,26 @@
+- name: "Configuring logrotate"
+  template:
+    src: etc-logrotate.d-docker.j2
+    dest: /etc/logrotate.d/docker
+    owner: root
+    group: root
+    mode: "0644"
+
+- name: "Writing DATABASE env to /etc/environment"
+  blockinfile:
+    dest: /etc/environment
+    state: present
+    block: |
+      DATABASE="wordpress"
+      PASSWORD="test"
+
+- name: "Setting up appropriate env variables"
+  shell: source /etc/environment
+  args:
+    executable: /bin/bash
+
+- lineinfile:
+    dest=wordpress/wp-content/plugins/graphql-wp/index.php
+    insertafter="^namespace "
+    line="require_once __DIR__.'/../../../vendor/autoload.php';"
+

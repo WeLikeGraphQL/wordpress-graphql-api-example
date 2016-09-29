@@ -1,0 +1,4 @@
+.idea
+.vagrant
+wordpress/vendor
+wordpress/wp-content/plugins/graphql-wp

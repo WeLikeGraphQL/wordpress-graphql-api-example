@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Types Order-zh_CN\n"
+"POT-Creation-Date: 2014-07-25 03:46+0800\n"
+"PO-Revision-Date: 2014-07-25 03:47+0800\n"
+"Last-Translator: Coolwp <coolwp.com@gmail.com>\n"
+"Language-Team: Suoling.net <suifengtec@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include/functions.php:129
+msgid ""
+"Did you find this plugin useful? Please support our work with a donation or "
+"write an article about this plugin in your blog with a link to our site"
+msgstr ""
+"局的这个插件有用？请捐赠我们，或者在您的博客写一篇介绍这个插件的文章吧。"
+
+#: include/functions.php:131
+msgid "Did you know there is available an Advanced version of this plug-in?"
+msgstr "您知道吗：这个插件有其对应的高级版本！"
+
+#: include/functions.php:131
+msgid "Read more"
+msgstr "了解更多"
+
+#: include/functions.php:133
+msgid "Check our"
+msgstr "检查我们的"
+
+#: include/functions.php:133
+msgid ""
+"plugin which allow to custom sort categories and custom taxonomies terms"
+msgstr "分类和自定义分类的排序插件"
+
+#: include/options.php:16
+msgid "Settings Saved"
+msgstr "设置已保存"
+
+#: include/options.php:28
+msgid "General Settings"
+msgstr "常规设置"
+
+#: include/options.php:34
+msgid "General"
+msgstr "常规"
+
+#: include/options.php:39
+msgid "Minimum Level to use this plugin"
+msgstr "使用此插件的最低等级"
+
+#: include/options.php:42
+msgid "Subscriber"
+msgstr "订阅者"
+
+#: include/options.php:43
+msgid "Contributor"
+msgstr "贡献者"
+
+#: include/options.php:44
+msgid "Author"
+msgstr "作者"
+
+#: include/options.php:45
+msgid "Editor"
+msgstr "编辑"
+
+#: include/options.php:46
+msgid "Administrator"
+msgstr "管理员"
+
+#: include/options.php:52
+msgid "Auto Sort"
+msgstr "自动排序"
+
+#: include/options.php:56
+msgid ""
+"If checked, the plug-in will automatically update the wp-queries to use the "
+"new order (<b>No code update is necessarily</b>).<br /> If you need more "
+"order customizations you will need to uncheck this and include 'menu_order' "
+"into your theme queries"
+msgstr ""
+"选中此项后，此插件将会使Wordpress的查询使用新的排序方案<b>无需代码更新</b>)."
+"<br /> 如果您需要更多排序自定义方式，您需要取消此项，并在您的主题查询中包"
+"含'menu_order'."
+
+#: include/options.php:58
+msgid "Show Examples"
+msgstr "示例"
+
+#: include/options.php:61
+msgid "The following PHP code will still return the post in the set-up Order"
+msgstr "下面的PHP代码将会返回设置后排序的文章"
+
+#: include/options.php:74
+msgid "Or"
+msgstr "或者"
+
+#: include/options.php:83
+msgid ""
+"If the Auto Sort is uncheck you will need to use the \"orderby\" and \"order"
+"\" parameters"
+msgstr ""
+"如果自动排序未被选中，您需要在Wordpress查询中使用\"orderby\" 和 \"order\" 参"
+"数。"
+
+#: include/options.php:98
+msgid "Admin Sort"
+msgstr "管理员排序"
+
+#: include/options.php:102
+msgid ""
+"To affect the admin interface, to see the post types per your new sort, this "
+"need to be checked"
+msgstr "如果您想让自定义的文章排序规则在文章管理页面也有效果，请选中此项。"
+
+#: include/options.php:111
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: post-types-order.php:107
+msgid "Post Types Order must be configured. Please go to"
+msgstr "Post Types Order需要进行配置，请移步至"
+
+#: post-types-order.php:107
+msgid "Settings Page"
+msgstr "设置页面"
+
+#: post-types-order.php:107
+msgid "make the configuration and save"
+msgstr "进行配置并保存"
+
+#: post-types-order.php:468
+msgid ""
+"This plugin can't work without javascript, because it's use drag and drop "
+"and AJAX."
+msgstr ""
+"这个插件需要浏览器支持javascript才可使用，因为它的拖动排序采用的是AJAX。"
+
+#: post-types-order.php:497
+msgid "Items Order Updated"
+msgstr "已排序"
+
+#: post-types-order.php:514
+msgid "Pages"
+msgstr "页面"
+
+#~ msgid "Posts Re-order"
+#~ msgstr "Posts Re-order"
+
+#~ msgid "Invalid post type"
+#~ msgstr "不可用的文章类型"
+
+#~ msgid "Re-Order"
+#~ msgstr "重新排序"
+
+#~ msgid "Save Changes"
+#~ msgstr "保存更改 "
+
+#~ msgid "Sort Backend post list?"
+#~ msgstr "排序影响文章管理列表？"
+
+#~ msgid "Update"
+#~ msgstr "更新"

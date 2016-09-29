@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Types Order\n"
+"POT-Creation-Date: 2015-07-10 17:03+0200\n"
+"PO-Revision-Date: 2015-07-10 17:03+0200\n"
+"Last-Translator: NspCode <electronice_delphi@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: post-types-order.php:121
+msgid "Post Types Order must be configured. Please go to"
+msgstr ""
+
+#: post-types-order.php:121
+msgid "Settings Page"
+msgstr ""
+
+#: post-types-order.php:121
+msgid "make the configuration and save"
+msgstr ""
+
+#: post-types-order.php:214 post-types-order.php:293
+#, php-format
+msgid "Use commas instead of %s to separate excluded terms."
+msgstr ""
+
+#: include/cpto-class.php:107 include/cpto-class.php:109
+#: include/cpto-class.php:113 include/cpto-class.php:124
+msgid "Re-Order"
+msgstr ""
+
+#: include/cpto-class.php:132
+msgid ""
+"This plugin can't work without javascript, because it's use drag and drop "
+"and AJAX."
+msgstr ""
+
+#: include/cpto-class.php:145
+msgid "Update"
+msgstr ""
+
+#: include/cpto-class.php:164
+msgid "Items Order Updated"
+msgstr ""
+
+#: include/cpto-class.php:183
+msgid "Pages"
+msgstr ""
+
+#: include/functions.php:82
+msgid ""
+"Did you find this plugin useful? Please support our work with a donation or "
+"write an article about this plugin in your blog with a link to our site"
+msgstr ""
+
+#: include/functions.php:83
+msgid "Did you know there is available an Advanced version of this plug-in?"
+msgstr ""
+
+#: include/functions.php:83
+msgid "Read more"
+msgstr ""
+
+#: include/functions.php:84
+msgid "Check our"
+msgstr ""
+
+#: include/functions.php:84
+msgid ""
+"plugin which allow to custom sort categories and custom taxonomies terms"
+msgstr ""
+
+#: include/options.php:18
+msgid "Settings Saved"
+msgstr ""
+
+#: include/options.php:30
+msgid "General Settings"
+msgstr ""
+
+#: include/options.php:36
+msgid "General"
+msgstr ""
+
+#: include/options.php:41
+msgid "Minimum Level to use this plugin"
+msgstr ""
+
+#: include/options.php:44
+msgid "Subscriber"
+msgstr ""
+
+#: include/options.php:45
+msgid "Contributor"
+msgstr ""
+
+#: include/options.php:46
+msgid "Author"
+msgstr ""
+
+#: include/options.php:47
+msgid "Editor"
+msgstr ""
+
+#: include/options.php:48
+msgid "Administrator"
+msgstr ""
+
+#: include/options.php:54
+msgid "Auto Sort"
+msgstr ""
+
+#: include/options.php:56
+msgid ""
+"If checked, the plug-in automatically update the WordPress queries to use "
+"the new order (<b>No code update is necessarily</b>)"
+msgstr ""
+
+#: include/options.php:57
+msgid ""
+"If only certain queries need to use the custom sort, keep this unchecked and "
+"include 'orderby' => 'menu_order' into query parameters"
+msgstr ""
+
+#: include/options.php:59
+msgid "Additional Description and Examples"
+msgstr ""
+
+#: include/options.php:66
+msgid "Admin Sort"
+msgstr ""
+
+#: include/options.php:70
+msgid ""
+"To affect the admin interface, to see the post types per your new sort, this "
+"need to be checked"
+msgstr ""
+
+#: include/options.php:75
+msgid "Next / Previous Apply"
+msgstr ""
+
+#: include/options.php:79
+msgid "Apply the sort on Next / Previous site-wide navigation."
+msgstr ""
+
+#: include/options.php:79
+msgid "This can also be controlled through"
+msgstr ""
+
+#: include/options.php:79
+msgid "code"
+msgstr ""
+
+#: include/options.php:88
+msgid "Save Settings"
+msgstr ""

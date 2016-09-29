@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Types Order v1.7.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-15 00:41+0100\n"
+"Last-Translator: Jaroslav Ondra <ondrajaroslav@gmail.com>\n"
+"Language-Team: dudlajda <ondrajaroslav@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: cs_CZ\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ cpt
+#: include/functions.php:65
+msgid ""
+"Did you find this plugin useful? Please support our work with a donation or "
+"write an article about this plugin in your blog with a link to our site"
+msgstr ""
+"Zdá se vám tento doplněk užitečný? Prosím podpořte naši práce malým darem "
+"nebo napište o našem pluginu na vašem blogu či odkažte z vašeho webu na náš."
+
+# @ cpt
+#: include/functions.php:66
+msgid "Did you know there is available an Advanced version of this plug-in?"
+msgstr "Věděli jste, že je k dispozci pokročilejší verze tohoto pluginu?"
+
+# @ cpt
+#: include/functions.php:66
+msgid "Read more"
+msgstr "Více informací"
+
+# @ cpt
+#: include/functions.php:67
+msgid "Check our"
+msgstr "Podívejte se,"
+
+# @ cpt
+#: include/functions.php:67
+msgid ""
+"plugin which allow to custom sort categories and custom taxonomies terms"
+msgstr ""
+"na náš plugin, který vám umožní řasit rubriky a volitelné položky taxonomie."
+
+# @ cpt
+#: include/options.php:16
+msgid "Settings Saved"
+msgstr "Nastavení byla uložena"
+
+# @ cpt
+#: include/options.php:28
+msgid "General Settings"
+msgstr "Obecná nastavení"
+
+# @ cpt
+#: include/options.php:34
+msgid "General"
+msgstr "Obecná"
+
+# @ cpt
+#: include/options.php:39
+msgid "Minimum Level to use this plugin"
+msgstr "Minimální oprávnění pro použití pluginu"
+
+# @ cpt
+#: include/options.php:42
+msgid "Subscriber"
+msgstr "Návštěvník"
+
+# @ cpt
+#: include/options.php:43
+msgid "Contributor"
+msgstr "Spolupracovník"
+
+# @ cpt
+#: include/options.php:44
+msgid "Author"
+msgstr "Autor"
+
+# @ cpt
+#: include/options.php:45
+msgid "Editor"
+msgstr "Šéfredaktor"
+
+# @ cpt
+#: include/options.php:46
+msgid "Administrator"
+msgstr "Administrátor"
+
+# @ cpt
+#: include/options.php:52
+msgid "Auto Sort"
+msgstr "Automatické řazení"
+
+# @ cpt
+#: include/options.php:56
+msgid ""
+"If checked, the plug-in will automatically update the wp-queries to use the "
+"new order (<b>No code update is necessarily</b>).<br /> If you need more "
+"order customizations you will need to uncheck this and include 'menu_order' "
+"into your theme queries"
+msgstr ""
+"Pokud je zaškrtnuto, plugin automaticky aktualizuje wp-queries, aby mohl "
+"použít nové pořadí. (<b>Žádná aktualizace kˇodu není třeba</b>).<br /> Pokud "
+"vyžadujete více možností přizpůsobení budete muset zakázat tuto volbu a "
+"integrovat 'menu_order' do souborů vaší šablony."
+
+# @ cpt
+#: include/options.php:58
+msgid "Show Examples"
+msgstr "Zobrazit příklady"
+
+# @ cpt
+#: include/options.php:61
+msgid "The following PHP code will still return the post in the set-up Order"
+msgstr "Následující kód PHP umožní zobrazení příspěvků ve výchozím pořadí"
+
+# @ cpt
+#: include/options.php:74
+msgid "Or"
+msgstr "Nebo"
+
+# @ cpt
+#: include/options.php:83
+msgid ""
+"If the Auto Sort is uncheck you will need to use the \"orderby\" and \"order"
+"\" parameters"
+msgstr ""
+"Pokud není zaškrtnuto automatické třídění budete muset použít parametry "
+"\"orderby\" a \"order\""
+
+# @ cpt
+#: include/options.php:98
+msgid "Admin Sort"
+msgstr "Třídění v adminu"
+
+# @ cpt
+#: include/options.php:102
+msgid ""
+"To affect the admin interface, to see the post types per your new sort, this "
+"need to be checked"
+msgstr ""
+"Toto musí být zaškrtnuto, aby byla povolena funkce řazení z adminu a abyste "
+"mohli vidět nové řazení vašich příspěvků."
+
+# @ cpt
+#: include/options.php:111
+msgid "Save Settings"
+msgstr "Uložit nastavení"
+
+# @ cpt
+#: post-types-order.php:124
+msgid "Post Types Order must be configured. Please go to"
+msgstr "Pořadí položek musí být nakonfigurováno. Prosím přejděte na "
+
+# @ cpt
+#: post-types-order.php:124
+msgid "Settings Page"
+msgstr "stránku nastavení"
+
+# @ cpt
+#: post-types-order.php:124
+msgid "make the configuration and save"
+msgstr "nastavte plugin a uložte nastavení."
+
+# @ cpt
+#: post-types-order.php:468 post-types-order.php:472 post-types-order.php:483
+msgid "Re-Order"
+msgstr "Seřadit"
+
+# @ cpt
+#: post-types-order.php:491
+msgid ""
+"This plugin can't work without javascript, because it's use drag and drop "
+"and AJAX."
+msgstr ""
+"Tento plugin se bez Javasriptu neobejde, jelikož používá funkce uchop a pusť "
+"a AJAX."
+
+# @ cpt
+#: post-types-order.php:504
+msgid "Update"
+msgstr "Aktualizovat"
+
+# @ cpt
+#: post-types-order.php:520
+msgid "Items Order Updated"
+msgstr "Pořádí položek bylo aktualizováno"
+
+# @ default
+#: post-types-order.php:537
+msgid "Pages"
+msgstr "Stránky"

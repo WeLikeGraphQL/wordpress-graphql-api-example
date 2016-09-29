@@ -1,0 +1,3 @@
+- name: Run docker compose
+  docker_service:
+    project_src: '.'

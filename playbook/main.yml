@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  sudo: yes
+  roles:
+   - vagrant
