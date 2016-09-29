@@ -1,4 +1,4 @@
-## wordpress-graphql-example
+# wordpress-graphql-example
 
 The aim of this repo is to work as a server side GraphQL example.
 
@@ -14,7 +14,7 @@ The project can be run in a lot of ways:
 
 We facilitate it, because we assume that not every developer will come from PHP World.
 
-### Execution
+## Execution
 
 The project publishes the following endpoints:
  - `localhost:8000/graphql` - GraphQL Endpoint
@@ -22,7 +22,7 @@ The project publishes the following endpoints:
 
 You can customize it in `.env` file.
 
-#### 1. Vagrant (for Windows, Linux, OSX)
+### 1. Vagrant (for Windows, Linux, OSX)
 
 Vagrant makes the project executable in Windows, Linux, OSX... (as Docker is available out-of-the-box only for some Linux instances). So, if you want to set everything up automatically, then install Vagrant with this plugin:
  - `vagrant plugin install vagrant-env` # in order to store environment variables in .env file
@@ -37,7 +37,7 @@ If you wish to use the exemplary dataset from `mysql` folder, then:
 
 Caveat: You might need a superuser access, in order to perform: `bash -x load_db.sh`.
 
-#### 2. Ansible (for Linux)
+### 2. Ansible (for Linux)
 
 If you want to use Ansible, then:
  - `ansible-playbook playbook/main.yml`
@@ -47,7 +47,7 @@ If you have Linux distribution that is not supported by Docker and you meet erro
 `{{ ansible_distribution|lower}}-{{ ansible_distribution_release }}`
 onto one of [supported distributions](https://docs.docker.com/engine/installation/linux/) (ubuntu-trusty, debian-wheezy etc.)
 
-#### 3. Docker (for Linux)
+### 3. Docker (for Linux)
 
 You can use `docker-compose` in order to set everything up and containerize automatically. You just need to execute:
  - `docker-compose up`
@@ -57,7 +57,7 @@ If you wish to use the exemplary dataset from `mysql` folder, then:
 
 Caveat: You might need a superuser access, in order to perform: `bash -x load_db.sh`.
 
-#### 4. Manual (for Windows, Linux, OSX)
+### 4. Manual (for Windows, Linux, OSX)
 
  - cd wordpress && composer install
  - change data in `wp-config.php` according to your MySQL Server
@@ -69,7 +69,7 @@ Caveat: You might need a superuser access, in order to perform: `bash -x load_db
 
  Caveat: change database name in `wp_backup.sql` accordingly
 
-### Backup
+## Backup
 
 If you wish to do a database backup, then:
  - `vagrant ssh` and `cd mysql && sudo bash -x backup.sh` or
@@ -77,7 +77,7 @@ If you wish to do a database backup, then:
 
 Remebmer to change data in `backup.sh` accordingly.
 
-### GraphiQL
+## GraphiQL
 
 It is recommended to explore possibilities of GraphQL Endppoint. The fastest way to do it is to use:
  - [ChromeiQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij)
@@ -90,5 +90,5 @@ Screenshot from ChromeiQL:
 
 ![https://raw.githubusercontent.com/balintsera/graphql-wp/fix/no-response/.readme.md/graphiql-query.png](https://raw.githubusercontent.com/balintsera/graphql-wp/fix/no-response/.readme.md/graphiql-query.png)
 
-### Acknowledgements
+## Acknowledgements
 Thanks for @tim-field, who published his work: [graphql-wp](https://github.com/tim-field/graphql-wp)
