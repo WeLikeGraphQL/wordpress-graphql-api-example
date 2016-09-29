@@ -8,7 +8,7 @@ The following technologies were used at the backend:
 
 ## Execution
 
-The project can be run using:
+The project can be run using one of the following (what is convenient for you):
  1. [Vagrant](https://www.vagrantup.com/) - for one-command virtual server provisioning in Windows, Linux, OSX...
  2. [Ansible](https://www.ansible.com/) - for one-command own server provisioning and containerizing in Linux
  3. [Docker](https://www.docker.com/) - for containerizing the application in Linux
@@ -24,8 +24,9 @@ You can customize it in `.env` file.
 
 ### 1. Vagrant (for Windows, Linux, OSX)
 
-Vagrant makes the project executable in Windows, Linux, OSX... (as Docker is available out-of-the-box only for [some Linux instances](https://docs.docker.com/engine/installation/linux/)). So, if you want to set everything up automatically, then install [Vagrant](https://www.vagrantup.com/), [this plugin](https://github.com/gosuri/vagrant-env) and invoke:
- - `vagrant up --provision`
+Vagrant makes the project executable in Windows, Linux, OSX... (as Docker is available out-of-the-box only for [some Linux instances](https://docs.docker.com/engine/installation/linux/)). So, if you want to set everything up automatically, then install both [Vagrant](https://www.vagrantup.com/) and [this plugin](https://github.com/gosuri/vagrant-env), and finally invoke:
+
+`vagrant up --provision`
 
 It might take some time for running the project at first, as all dependencies have to be downloaded.
 
@@ -37,8 +38,9 @@ Caveat: You might need a superuser access, in order to perform: `bash -x load_db
 
 ### 2. Ansible (for Linux)
 
-If you want to use Ansible, then invoke:
- - `ansible-playbook playbook/main.yml`
+If you want to use [Ansible](https://www.ansible.com/), then invoke:
+
+`ansible-playbook playbook/main.yml`
 
 It will install the needed stuff on your host.
 
@@ -50,11 +52,19 @@ onto one of [supported distributions](https://docs.docker.com/engine/installatio
 
 ### 3. Docker (for Linux)
 
-You can use `docker-compose` in order to set everything up and containerize automatically. You just need to execute:
- - `docker-compose up`
+You can use [Docker Compose](https://docs.docker.com/compose/) in order to set everything up and containerize automatically. You just need to execute:
+
+`docker-compose up`
+
+and if [this PR](https://github.com/tim-field/graphql-wp/pull/9) is not be merged add
+ ```php
+ require_once __DIR__.'/../../../vendor/autoload.php';
+ ```
+after `namespace Mohiohio\GraphQLWP;` in `wordpress/wp-content/plugins/graphql-wp/index.php`.
 
 If you wish to use the exemplary dataset from `mysql` folder, then:
- - `cd mysql && bash -x load_db.sh`
+
+`cd mysql && bash -x load_db.sh`
 
 Caveat: You might need a superuser access, in order to perform: `bash -x load_db.sh`.
 
@@ -62,6 +72,11 @@ Caveat: You might need a superuser access, in order to perform: `bash -x load_db
 
  - `cd wordpress && composer install`
  - change data in `wp-config.php` according to your MySQL Server
+ - and if [this PR](https://github.com/tim-field/graphql-wp/pull/9) is not be merged add
+    ```php
+    require_once __DIR__.'/../../../vendor/autoload.php';
+    ```
+   after `namespace Mohiohio\GraphQLWP;` in `wordpress/wp-content/plugins/graphql-wp/index.php`.
  - copy/paste `wordpress` folder to your PHP Server
 
  and if you wish to fulfill database with sample data:
