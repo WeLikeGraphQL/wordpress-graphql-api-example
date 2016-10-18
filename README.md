@@ -13,7 +13,7 @@ The project can be run using one of the following (what is convenient for you):
  
  4. **Manually** - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, Composer etc.)
 
-**We facilitate it, because we assume that not every developer will come from PHP World.**
+**We give you all a lot of options of installation, because we assume that not every developer will come from PHP World.**
 
 The project publishes the following endpoints:
  - `localhost:8000/graphql` - GraphQL Endpoint
@@ -23,7 +23,7 @@ You can customize it in `.env` file.
 
 ### 1. Vagrant (for Windows, Linux, OSX)
 
-Vagrant makes the project executable in Windows, Linux, OSX... (as Docker is available out-of-the-box only for [some Linux instances](https://docs.docker.com/engine/installation/linux/)). So, if you want to set everything up automatically, then install both [Vagrant](https://www.vagrantup.com/) and [this plugin](https://github.com/gosuri/vagrant-env), and finally invoke:
+Vagrant makes the project executable in Windows, Linux, OSX... (as Docker is available out-of-the-box only for [some Linux instances](https://docs.docker.com/engine/installation/linux/)). So, if you want to set everything up automatically, then install both [Vagrant>=1.8](https://www.vagrantup.com/) and [this plugin](https://github.com/gosuri/vagrant-env), and finally invoke:
 
  - `vagrant up`
  - `vagrant provision`
