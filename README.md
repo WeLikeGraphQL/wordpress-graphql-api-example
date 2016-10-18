@@ -96,6 +96,14 @@ If you wish to do a database backup, then execute one of the following (dependin
 
 Remebmer to change data in `backup.sh` accordingly.
 
+## Sample Data
+
+If you wish to use sample data, then execute one of the following (depending how you set up the project):
+ - `vagrant ssh` and `cd mysql && sudo bash -x load_db.sh`
+ - `cd mysql && sudo bash -x load_db.sh`
+
+Remebmer to change data in `load_db.sh` accordingly.
+
 ## GraphiQL
 
 It is recommended to explore possibilities of GraphQL Endppoint. The fastest way to do it is to use one of the following solutions:
