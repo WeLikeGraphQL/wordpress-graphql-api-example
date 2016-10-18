@@ -1,15 +1,15 @@
 # wordpress-graphql-api-example
 
-The aim of this repo is to publish GraphQL API in [Wordpress](https://wordpress.org/download/) thanks to [graphql-wp](https://github.com/tim-field/graphql-wp).
+>The aim of this repo is to give an example of publishing [GraphQL](http://graphql.org/) API in [Wordpress](https://wordpress.org/download/).
 
 ## Execution
 
 The project can be run using one of the following (what is convenient for you):
- 1. **[Vagrant]**(https://www.vagrantup.com/) - for one-command virtual server provisioning in Windows, Linux, OSX... (the best option when Ansible/Docker not installed). Requirements: *Vagrant >=1.8*
+ 1. **[Vagrant](https://www.vagrantup.com/)** - for one-command virtual server provisioning in Windows, Linux, OSX... (the best option when Ansible/Docker not installed). Requirements: *Vagrant >=1.8*
  
- 2. **[Ansible]**(https://www.ansible.com/) - for one-command own server provisioning and containerizing in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
+ 2. **[Ansible](https://www.ansible.com/)** - for one-command own server provisioning and containerizing in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
  
- 3. **[Docker]**(https://www.docker.com/) - for containerizing the application in Linux. Requirements: *docker*, *docker-compose*, *[composer](https://getcomposer.org/)*
+ 3. **[Docker](https://www.docker.com/)** - for containerizing the application in Linux. Requirements: *docker*, *docker-compose*, *[composer](https://getcomposer.org/)*
  
  4. **Manually** - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, Composer etc.)
 
@@ -90,7 +90,7 @@ Caveat: You might need a superuser access, in order to perform: `bash -x load_db
 
 ## Backup
 
-If you wish to do a database backup, then execute one of the following:
+If you wish to do a database backup, then execute one of the following (depending how you set up the project):
  - `vagrant ssh` and `cd mysql && sudo bash -x backup.sh`
  - `cd mysql && sudo bash -x backup.sh`
 
