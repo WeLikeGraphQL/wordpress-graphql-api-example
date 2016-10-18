@@ -9,10 +9,13 @@ The following technologies were used at the backend:
 ## Execution
 
 The project can be run using one of the following (what is convenient for you):
- 1. [Vagrant](https://www.vagrantup.com/) - for one-command virtual server provisioning in Windows, Linux, OSX...
- 2. [Ansible](https://www.ansible.com/) - for one-command own server provisioning and containerizing in Linux
- 3. [Docker](https://www.docker.com/) - for containerizing the application in Linux
- 4. Manually - (required Apache2/Nginx, PHP >= 5.6, MySQL, Composer etc.)
+ 1. [Vagrant](https://www.vagrantup.com/) - for one-command virtual server provisioning in Windows, Linux, OSX... (the best option when Ansible/Docker not installed). Requirements: *Vagrant >=1.8*
+ 
+ 2. [Ansible](https://www.ansible.com/) - for one-command own server provisioning and containerizing in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
+ 
+ 3. [Docker](https://www.docker.com/) - for containerizing the application in Linux. Requirements: *docker*, *docker-compose*, *[composer](https://getcomposer.org/)*
+ 
+ 4. Manually - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, Composer etc.)
 
 We facilitate it, because we assume that not every developer will come from PHP World.
 
@@ -26,7 +29,8 @@ You can customize it in `.env` file.
 
 Vagrant makes the project executable in Windows, Linux, OSX... (as Docker is available out-of-the-box only for [some Linux instances](https://docs.docker.com/engine/installation/linux/)). So, if you want to set everything up automatically, then install both [Vagrant](https://www.vagrantup.com/) and [this plugin](https://github.com/gosuri/vagrant-env), and finally invoke:
 
-`vagrant up --provision`
+ - `vagrant up`
+ - `vagrant provision`
 
 It might take some time for running the project at first, as all dependencies have to be downloaded.
 
@@ -38,13 +42,13 @@ Caveat: You might need a superuser access, in order to perform: `bash -x load_db
 
 ### 2. Ansible (for Linux)
 
-If you want to use [Ansible](https://www.ansible.com/), then invoke:
+If you do not have Docker installed, then you can install everything using [Ansible](https://www.ansible.com/). Invoke:
 
-`ansible-playbook playbook/main.yml`
+`ansible-playbook main.yml`
 
 It will install the needed stuff on your host.
 
-If you have Linux distribution that is not supported by Docker and it causes errors, then change the following part in `playbook/roles/vagrant/tasks/install.yml`:
+If you have Linux distribution that is not supported by Docker and it causes errors, then change the following part in `roles/vagrant/tasks/install.yml`:
 
 `{{ ansible_distribution|lower}}-{{ ansible_distribution_release }}`
 
@@ -54,7 +58,8 @@ onto one of [supported distributions](https://docs.docker.com/engine/installatio
 
 You can use [Docker Compose](https://docs.docker.com/compose/) in order to set everything up and containerize automatically. You just need to execute:
 
-`docker-compose up`
+ - `docker-compose up`
+ - `cd wordpress && composer install`
 
 and if [this PR](https://github.com/tim-field/graphql-wp/pull/9) is not merged, add:
  ```php
