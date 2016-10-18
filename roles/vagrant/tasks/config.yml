@@ -19,8 +19,3 @@
   args:
     executable: /bin/bash
 
-- lineinfile:
-    dest=wordpress/wp-content/plugins/graphql-wp/index.php
-    insertafter="^namespace "
-    line="require_once __DIR__.'/../../../vendor/autoload.php';"
-

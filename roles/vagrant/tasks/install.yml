@@ -10,6 +10,13 @@
   with_items:
     - apt-transport-https
     - ca-certificates
+
+- name: 'Installing dependencies'
+  apt:
+    pkg: "{{ item }}"
+    state: present
+    force: yes
+  with_items:
     - php5-cli
 
 - name: 'Adding APT key'
@@ -58,7 +65,7 @@
   tags:
    - composer
 
-- name: "Downloading and installing composer libs and dependencies"
-  composer:
-    command=install
-    working_dir=./wordpress
+#- name: "Downloading and installing composer libs and dependencies"
+#  composer:
+#    command=install
+#    working_dir=./wordpress

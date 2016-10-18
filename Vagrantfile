@@ -17,8 +17,12 @@ Vagrant.configure("2") do |config|
     end
 
     config.vm.provision "ansible_local" do |ansible|
-        ansible.playbook = "playbook/main.yml"
-        ansible.verbose = "vvv"
+        ansible.playbook = "main.yml"
+        ansible.verbose = "vvvv"
+        ansible.version = "2.1.2.0"
         ansible.install = true
+        ansible.groups = {
+            'localhost' => ['default']
+        }
     end
 end
