@@ -1,23 +1,19 @@
-# wordpress-graphql-example
+# wordpress-graphql-api-example
 
-The aim of this repo is to work as a server side GraphQL example.
-
-The following technologies were used at the backend:
- - [WordPress](https://wordpress.org/download/) - for customizing content of a website easily
- - [graphql-wp](https://github.com/tim-field/graphql-wp) - allows setting-up GraphQL endpoint in WordPress
+The aim of this repo is to publish GraphQL API in [Wordpress](https://wordpress.org/download/) thanks to [graphql-wp](https://github.com/tim-field/graphql-wp).
 
 ## Execution
 
 The project can be run using one of the following (what is convenient for you):
- 1. [Vagrant](https://www.vagrantup.com/) - for one-command virtual server provisioning in Windows, Linux, OSX... (the best option when Ansible/Docker not installed). Requirements: *Vagrant >=1.8*
+ 1. **[Vagrant]**(https://www.vagrantup.com/) - for one-command virtual server provisioning in Windows, Linux, OSX... (the best option when Ansible/Docker not installed). Requirements: *Vagrant >=1.8*
  
- 2. [Ansible](https://www.ansible.com/) - for one-command own server provisioning and containerizing in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
+ 2. **[Ansible]**(https://www.ansible.com/) - for one-command own server provisioning and containerizing in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
  
- 3. [Docker](https://www.docker.com/) - for containerizing the application in Linux. Requirements: *docker*, *docker-compose*, *[composer](https://getcomposer.org/)*
+ 3. **[Docker]**(https://www.docker.com/) - for containerizing the application in Linux. Requirements: *docker*, *docker-compose*, *[composer](https://getcomposer.org/)*
  
- 4. Manually - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, Composer etc.)
+ 4. **Manually** - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, Composer etc.)
 
-We facilitate it, because we assume that not every developer will come from PHP World.
+**We facilitate it, because we assume that not every developer will come from PHP World.**
 
 The project publishes the following endpoints:
  - `localhost:8000/graphql` - GraphQL Endpoint
