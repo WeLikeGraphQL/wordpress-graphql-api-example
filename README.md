@@ -7,13 +7,14 @@
 ## Execution
 
 The project can be run using one of the following (what is convenient for you):
- 1. **[Vagrant](https://www.vagrantup.com/)** - for one-command virtual machine provisioning in Windows, Linux, OSX... (the best option when Ansible/Docker not installed). Requirements: *Vagrant >=1.8*
+
+**[Vagrant](https://www.vagrantup.com/)** - for one-command virtual machine provisioning in Windows, Linux, OSX... (the best option when Ansible/Docker not installed). Requirements: *Vagrant >=1.8*
  
- 2. **[Ansible](https://www.ansible.com/)** - for one-command own host provisioning and containerizing the app in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
+**[Ansible](https://www.ansible.com/)** - for one-command own host provisioning and containerizing the app in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
  
- 3. **[Docker](https://www.docker.com/)** - for containerizing the app in Linux. Requirements: *docker*, *docker-compose*
+**[Docker](https://www.docker.com/)** - for containerizing the app in Linux. Requirements: *docker*, *docker-compose*
  
- 4. **Manually** - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, [Composer](https://getcomposer.org/) etc.)
+**Manually** - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, [Composer](https://getcomposer.org/) etc.)
 
 **We give you a lot of installation options, because we assume that not every developer will come from PHP World and have already installed all needed stuff for manual set-up. If you are not interested in the backend part, just choose the simplest way of installation and run the [Web App](https://github.com/WeLikeGraphQL/react-apollo-example), which consumes this Wordpress GraphQL API.**
 
@@ -23,7 +24,7 @@ The project publishes the following endpoints:
 
 You can customize data in `.env` file.
 
-### 1. Vagrant (for Windows, Linux, OSX)
+### Vagrant (for Windows, Linux, OSX)
 
 Vagrant makes the project executable in Windows, Linux, OSX... (as Docker is available out-of-the-box only for [some Linux instances](https://docs.docker.com/engine/installation/linux/)). So, if you want to set everything up automatically, then install [Vagrant>=1.8](https://www.vagrantup.com/) and execute:
 
@@ -33,7 +34,7 @@ It might take some time for running the project at first, as all dependencies ha
 
 Sample data are included automatically after every run.
 
-### 2. Ansible (for Linux)
+### Ansible (for Linux)
 
 If you do not have Docker installed, then you can install everything using [Ansible](https://www.ansible.com/). Invoke:
 
@@ -50,7 +51,7 @@ onto one of [supported distributions](https://docs.docker.com/engine/installatio
 
 
 
-### 3. Docker (for Linux)
+### Docker (for Linux)
 
 You can use [Docker Compose](https://docs.docker.com/compose/) in order to set everything up and containerize automatically. You just need to execute:
 
@@ -59,7 +60,7 @@ You can use [Docker Compose](https://docs.docker.com/compose/) in order to set e
 
 Sample data are included automatically thanks to the second command.
 
-### 4. Manually (for Windows, Linux, OSX)
+### Manually (for Windows, Linux, OSX)
 
  - `cd wordpress && composer install`
  - change data in `wp-config.php` according to your MySQL Server
