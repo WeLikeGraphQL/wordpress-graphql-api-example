@@ -3,7 +3,3 @@
   become: true
   roles:
    - vagrant
-  environment:
-   WP_PORT: 8000
-   PHPMYADMIN_PORT: 8888
-   MYSQL_PORT: 3306

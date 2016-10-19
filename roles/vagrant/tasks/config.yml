@@ -6,16 +6,8 @@
     group: root
     mode: "0644"
 
-- name: "Writing DATABASE env to /etc/environment"
-  blockinfile:
-    dest: /etc/environment
-    state: present
-    block: |
-      DATABASE="wordpress"
-      PASSWORD="test"
-
 - name: "Setting up appropriate env variables"
-  shell: source /etc/environment
+  shell: source .env
   args:
     executable: /bin/bash
 
