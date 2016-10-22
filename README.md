@@ -53,7 +53,7 @@ onto one of [supported distributions](https://docs.docker.com/engine/installatio
 
 ### Docker (for Linux)
 
-You can use [Docker Compose](https://docs.docker.com/compose/) in order to set everything up and containerize automatically. You just need to execute:
+You can use [Docker Compose](https://docs.docker.com/compose/) in order to set everything up and containerize automatically. Install [local-persist](https://github.com/CWSpear/local-persist#running-outside-a-container) docker plugin and just execute:
 
  - `docker-compose up`
  - `bash -x scripts/load_db.sh`
