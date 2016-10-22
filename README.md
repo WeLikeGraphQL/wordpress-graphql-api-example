@@ -12,7 +12,7 @@ The project can be run using one of the following (what is convenient for you):
  
 **[Ansible](https://www.ansible.com/)** - for one-command own host provisioning and containerizing the app in Linux (the best option when Docker not installed). Requirements: *ansible-playbook*
  
-**[Docker](https://www.docker.com/)** - for containerizing the app in Linux. Requirements: *docker*, *docker-compose*
+**[Docker](https://www.docker.com/)** - for containerizing the app in Linux. Requirements: *docker*, *docker-compose*, *[local-persist](https://github.com/CWSpear/local-persist)*
  
 **Manually** - (any OS, required Apache2/Nginx, PHP >= 5.6, MySQL, [Composer](https://getcomposer.org/) etc.)
 
